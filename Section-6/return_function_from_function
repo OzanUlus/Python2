@@ -1,0 +1,27 @@
+
+def usAlma(taban):
+
+    def inner(us):
+        return taban ** us
+    return inner
+
+result = usAlma(2)(3)
+print(result)
+
+
+def authantication(sayfa):
+
+    def inner(role):
+        if role == "Admin":
+            return f"{role} rölü {sayfa} sayfasına ulaşabilir"
+        else:
+             return f"{role} rölü {sayfa} sayfasına ulaşamaz"
+        
+    return inner
+
+result = authantication("AdminPage")("Admin")
+result2 = authantication("AdminPage")("User")
+
+print(result)
+print(result2)
+
