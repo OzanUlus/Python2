@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Macbook Pro",
+    "price": 90000
+  },
+  {
+    "id": 2,
+    "title": "HP Victus",
+    "price": 40000
+  },
+  {
+    "id": 3,
+    "title": "Asus ZenBook",
+    "price": 23000
+  },
+  {
+    "id": 4,
+    "title": "Macbook Air",
+    "price": 70000
+  },
+  {
+    "id": 5,
+    "title": "Lenova Thinkpad",
+    "price": 28000
+  }
+]

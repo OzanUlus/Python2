@@ -1,0 +1,26 @@
+{
+  "users": {
+    "ozanulus": {
+      "firstname": "Ozan",
+      "lastName": "Ulus"
+    },
+    "yaşaryıldırım": {
+      "firstname": "Yaşar",
+      "lastName": "Yıldırım"
+    }
+  },
+  "products": {
+    "1": {
+      "title": "Macbook Pro",
+      "price": 90000
+    },
+    "2": {
+      "title": "HP Victus",
+      "price": 40000
+    },
+    "3": {
+      "title": "Asus Zenbook",
+      "price": 23000
+    }
+  }
+}
