@@ -1,0 +1,20 @@
+import socket
+
+server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# HOST = "127.0.0.1"
+HOST = socket.gethostbyname(socket.gethostname())
+PORT = 12345
+
+
+server_socket.bind((HOST, PORT))
+
+server_socket.listen()
+
+while True:
+    client_socket, client_address = server_socket.accept()
+    print(f"bağlantı yapıldı: {client_address}")
+    client_socket.send("Merhaba".encode("utf-8"))
+    print(client_socket, client_address)
+    server_socket.close()
+    break
